@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Experience
 # Experience
 ---
 
@@ -8,189 +9,29 @@ layout: default
 
 <div class="accordion" id="experienceAccordion">
 
+  {% for role in site.data.experience %}
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFSP">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFSP" aria-expanded="false" aria-controls="collapseFSP">
+    <h2 class="accordion-header" id="heading{{ role.jobid }}">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ role.jobid }}" aria-expanded="false" aria-controls="collapse{{ role.jobid }}">
         <div class="container-md">
           <div class="row align-items-center">
             <div class="col-md-8">
-              <h2>FSP</h2>
-              <p>Cloud Solution Architect</p>
+              <h2>{{ role.company }}</h2>
+              <p>{{ role.role }}</p>
             </div>
             <div class="col-md-4">
-              <p>March 2023 - Current</p>
+              <p>{{ role.start }} - {{ role.finish }}</p>
             </div>
           </div>
         </div>
       </button>
     </h2>
-    <div id="collapseFSP" class="accordion-collapse collapse" aria-labelledby="headingFSP" data-bs-parent="#experienceAccordion">
+    <div id="collapse{{ role.jobid }}" class="accordion-collapse collapse" aria-labelledby="heading{{ role.jobid }}" data-bs-parent="#experienceAccordion">
       <div class="accordion-body">
-        <ul>
-          <li>Work across various teams to support cloud platform architecture and build a new Architecture capability within FSP.</li>
-          <li>Identify and develop cloud strategy for multiple organisations to enable them to leverage Cloud Services, including build of hybrid cloud platform for a large defence contractor.  Provide advice and guidance on the implementation and BAU support for services.</li>
-          <li>Integration of cloud platform, customer development and data architecture to design and deliver internal SaaS services, including architectural design for a business automation service for a large financial services organisation.</li>
-          <li>Build PoC (Proof of Concepts) and development environments for various projects, including the use of Azure VMs, Containers, Azure Front Door with multiple Application services and Azure B2C authentication services.</li>
-          <li>Help organisations and developers embrace automated deployment of services using infrastructure as code (Bicep/PowerShell/etc).</li>
-          <li>Lead Graduate scheme for Cloud Engineering to support and mentor junior talent within the organisation.</li>
-          <li>Support business strategy for both Cloud Engineering and Scottish teams.</li>
-        </ul>
+        {{ role.description }}
     </div>
     </div>
   </div>
-
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingSword">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSword" aria-expanded="false" aria-controls="collapseSword">
-        <div class="container-md">
-          <div class="row align-items-center">
-            <div class="col-md-8">
-              <h2>Sword Group</h2>
-              <p>Cloud Platform Practice Lead</p>
-            </div>
-            <div class="col-md-4">
-              <p>March 2021 - March 2023</p>
-            </div>
-          </div>
-        </div>
-      </button>
-    </h2>
-    <div id="collapseSword" class="accordion-collapse collapse" aria-labelledby="headingSword" data-bs-parent="#experienceAccordion">
-      <div class="accordion-body">
-        <ul>
-          <li>Work with the senior management team to help define and support the business strategy.
-          <li>Evangelise on the benefits of the Microsoft Public Cloud and develop Sword Cloud Platform strategy and offerings.  Integrating with other practices to provide customers a complete solution.</li>
-          <li>Manage, support, and develop a team of technical consultants of various levels working across Microsoft cloud technologies including Azure and M365.</li>
-          <li>Provide Pre-Sales support to the sales team and ensure solutions are defined to support customers and manage customer expectations and escalations.</li>
-          <li>Design and build standard service offerings, including the creation of template documentation, defining training and service management requirements.</li>
-          <li>Provide technical support to customers with the build and design of cloud platforms, including automation of infrastructure (IaC, with Terraform/Bicep) and the integration with CI/CD platforms.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingproact">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseproact" aria-expanded="false" aria-controls="collapseproact">
-        <div class="container-md">
-          <div class="row align-items-center">
-            <div class="col-md-8">
-              <h2>Proact IT UK</h2>
-              <p>Cloud Solutions Architect (Pre-Sales)</p>
-            </div>
-            <div class="col-md-4">
-              <p>June 2018 - March 2021</p>
-            </div>
-          </div>
-        </div>
-      </button>
-    </h2>
-    <div id="collapseproact" class="accordion-collapse collapse" aria-labelledby="headingproact" data-bs-parent="#experienceAccordion">
-      <div class="accordion-body">
-        <ul>
-          <li>Promote an understanding around the benefits of Public Cloud providers and develop Product offerings for the UK Sales team, supporting industry events and customer engagements.</li>
-          <li>Design standard service offerings for the UK, including the creation of template documentation, defining training and service management requirements.</li>
-          <li>Support the creation of product service brochures, service offerings for the UK government digital marketplace (G-Cloud), and the implementation and management of the Proact CSP programme</li>
-          <li>Deliver Public Cloud engagements to customers, both as chargeable work and under pre-sales to implement and demonstrate the features and benefits of Microsoft Office 365, Microsoft Azure, Amazon Web Services and Oracle Cloud Infrastructure.</li>
-          <li>Provide Cloud Solution Architecture design and support to customers, providing recommendations and best practice around security, connectivity, integration, service utilisation and service operational models.</li>
-          <li>Support customers with automating services using Infrastructure as Code, Source Code Management and Control, and the implementation of Continual Integration and Deployment (CI/CD) pipelines.</li>
-          <li>Helping customers migrate and transform business applications using Azure platform services.</li>
-          <li>Discuss and help customers understand the business impact of using Cloud services, supporting business cloud alignment and identifying gaps in a customers ability to fully leverage Public Cloud capabilities.</li>
-          <li>Identify opportunities to extend and expand current, traditional service offerings to the Public Cloud including using Azure Site Recovery to extend DR as a Service (DRaaS) and Blob storage for Backup as a Service (BaaS).</li>
-          <li>Provide support and advise to other Public Cloud consultants and the wider pre-sales team on their engagements and document reviews.  Engage with Telesales team to develop call sheets and assist with customer engagements.</li>
-          <li>Received UK “Rookie of the Year” award and a nomination for the Group-wide award.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingvisionware">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsevisionware" aria-expanded="false" aria-controls="collapsevisionware">
-        <div class="container-md">
-          <div class="row align-items-center">
-            <div class="col-md-8">
-              <h2>VisionWare</h2>
-              <p>Solutions Architect</p>
-            </div>
-            <div class="col-md-4">
-              <p>January 2017 - May 2018</p>
-            </div>
-          </div>
-        </div>
-      </button>
-    </h2>
-    <div id="collapsevisionware" class="accordion-collapse collapse" aria-labelledby="headingvisionware" data-bs-parent="#experienceAccordion">
-      <div class="accordion-body">
-        <ul>
-          <li>Working with worldwide customers to design the overall solution framework for the integration and deployment of the MultiVue Master Data Management product suite into customer environments.</li>
-          <li>Understanding Business, Infrastructure, Data, Application and Security requirements to design optimal solutions which are highly available, secure, performant, and supportable.</li>
-          <li>Provide customers with data, application, infrastructure and solution architecture designs and support implementation and testing.</li>
-          <li>Follow Service-Oriented Micro-Architecture design methodologies to support solution and application design.</li>
-          <li>Automate the implementation and support of solutions, including the automated build and configuration of MongoDB databases and MultiVue application components within Microsoft Azure.</li>
-          <li>Identify opportunities to apply data analytics to help support customers business requirements.</li>
-          <li>Product and Documentation management, including technical and training materials and customer design documentation.</li>
-          <li>Support pre-sales activities and training for customers and colleagues.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingtrustmarque">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetrustmarque" aria-expanded="false" aria-controls="collapsetrustmarque">
-        <div class="container-md">
-          <div class="row align-items-center">
-            <div class="col-md-8">
-              <h2>Trustmarque Solutions</h2>
-              <p>Pre-Sales Solutions Architect</p>
-            </div>
-            <div class="col-md-4">
-              <p>August 2016 - January 2017</p>
-            </div>
-          </div>
-        </div>
-      </button>
-    </h2>
-    <div id="collapsetrustmarque" class="accordion-collapse collapse" aria-labelledby="headingtrustmarque" data-bs-parent="#experienceAccordion">
-      <div class="accordion-body">
-        <ul>
-          <li>Support the Sales Team to promote and evangelise Microsoft technologies, particularly Office 365 and Azure cloud technologies, to both public and corporate sectors.</li>
-          <li>Concurrently support multiple customers to educate about and architect appropriate technical and licencing solutions to support business processes.</li>
-          <li>Lead technical pre-sales discussions to develop understanding and ease concerns regarding cloud solutions and support the implementation across organisations, including Management, IT, and the wider user base.</li>
-          <li>Work with customers to design and architect solutions to meet their business, technical and security requirements.</li>
-          <li>Key technologies include Microsoft Windows 10, Exchange, SharePoint, Skype for Business, Office 365, Azure, and Power BI along with various supporting services including an array of Security technologies.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headinghpe">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsehpe" aria-expanded="false" aria-controls="collapsehpe">
-        <div class="container-md">
-          <div class="row align-items-center">
-            <div class="col-md-8">
-              <h2>Hewlett Packard Enterprise</h2>
-              <p>Lead Infrastrucutre Engineer</p>
-            </div>
-            <div class="col-md-4">
-              <p>December 2015 - August 2016</p>
-            </div>
-          </div>
-        </div>
-      </button>
-    </h2>
-    <div id="collapsehpe" class="accordion-collapse collapse" aria-labelledby="headinghpe" data-bs-parent="#experienceAccordion">
-      <div class="accordion-body">
-        <ul>
-          <li>Technical and Project Management of the Workplace Services components to migrate a large Public Services organisation (200,000+ users) from their current, legacy environment to a cloud-hosted platform.</li>
-          <li>Provide technical governance and team leadership for the workplace domain covering end-user devices and services (including integration with Office 365, Skype for Business, various desktop/laptop models, Thin Terminals/Citrix and management of user devices using SCCM and SEP).</li>
-          <li>Full end-to-end project planning and resourcing requirements, presenting to senior stakeholders, and supporting ongoing changes to requirements and timescales.</li>
-          <li>Review current environments to identify specific technical requirements for the overall design and provided governance for low-level designs and implementation.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+{% endfor %}
 
 </div>
