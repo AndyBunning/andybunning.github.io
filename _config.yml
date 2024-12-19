@@ -8,4 +8,4 @@ plugins:
   - jekyll-seo-tag
 
 # Configure page URL strucutres to remove the default /categories at the start
-permalink: /:year/:month/:day/:slug
+permalink: /:year/:month/:slug
