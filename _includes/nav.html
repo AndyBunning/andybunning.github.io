@@ -3,7 +3,9 @@
 		<a class="navbar-brand" href="/">Andrew Bunning</a>
 
 		<!-- Step 3: Toggle the value of the property when the toggler button is clicked. -->
-		<button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon">&#9776;</span>
+		</button>
 
 		<!-- Step 2: Add the ngbCollapse directive to the element below. -->
 		<div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
@@ -13,13 +15,13 @@
 					<a class="nav-link {% if page.url == "/" %}active{% endif %}" href="/" (click)="isMenuCollapsed = true">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link {% if page.url == "/" %}active{% endif %}" href="about" (click)="isMenuCollapsed = true">About</a>
+					<a class="nav-link {% if page.url == "about" %}active{% endif %}" href="about" (click)="isMenuCollapsed = true">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link {% if page.url == "/" %}active{% endif %}" href="experience" (click)="isMenuCollapsed = true">Experience</a>
+					<a class="nav-link {% if page.url == "experience" %}active{% endif %}" href="experience" (click)="isMenuCollapsed = true">Experience</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link {% if page.url == "/" %}active{% endif %}" href="blog" (click)="isMenuCollapsed = true">Blog</a>
+					<a class="nav-link {% if page.url == "blog" %}active{% endif %}" href="blog" (click)="isMenuCollapsed = true">Blog</a>
 				</li>
 			</ul>
 		</div>
