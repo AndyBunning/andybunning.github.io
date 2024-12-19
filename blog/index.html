@@ -10,6 +10,13 @@ title: Blog
   <p>I'm still working on creating a blog, please come back later or follow me in LinkedIn.</p>
 {% endif %}
 
+<% if site.posts.size > 0 %>
+  <h1>Blog</h1>
+
+  <p>Here are some of my latest blog posts:</p>
+  
+<% endif %>
+
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
