@@ -6,6 +6,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Configure page URL strucutres to remove the default /categories at the start
 permalink: /:year/:month/:slug
+
+# Configure the pagination
+paginate: 2
+paginate_path: "/blog/page:num/"
