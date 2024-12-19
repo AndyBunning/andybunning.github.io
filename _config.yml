@@ -6,3 +6,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# Configure page URL strucutres to remove the default /categories at the start
+permalink: /:year/:month/:day/:title:output_ext
