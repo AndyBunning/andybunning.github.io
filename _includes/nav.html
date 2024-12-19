@@ -9,7 +9,7 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<div class="navbar-nav">
 				{% for navLink in site.data.nav %}
-					<a class="nav-link {% if page.url == navLink.url %}active{% endif %}" aria-current="page" href="{{ navLink.url }}">{{ navLink.title }}</a>
+					<a class="nav-link {% if page.url == navLink.link %}active{% endif %}" aria-current="page" href="{{ navLink.link }}">{{ navLink.name }}</a>
 				{% endfor %}
 			</div>
 
