@@ -1,5 +1,5 @@
 url: "https://abunning.uk" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/blog/" # the subpath of your site, e.g. /blog
 title: "Andrew Bunning" # the name of your site, e.g. ACME Corp.
 
 plugins:
@@ -9,7 +9,7 @@ plugins:
   - jekyll-paginate
 
 # Configure page URL strucutres to remove the default /categories at the start
-permalink: /:year/:month/:slug
+permalink: /blog/:year/:month/:slug
 
 # Configure the pagination
 paginate: 2
