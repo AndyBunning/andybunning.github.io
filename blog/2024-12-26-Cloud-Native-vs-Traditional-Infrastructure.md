@@ -148,3 +148,14 @@ As IT landscapes grow increasingly complex, organisations must make informed dec
 By carefully evaluating your organisation's requirements, you can design a cloud strategy that balances control, innovation, and cost efficiency, ensuring a future-ready IT environment.
 
 Ready to explore your options? Start by assessing your current infrastructure and long-term goals to find the right mix for your organisation.
+
+---
+
+### Further Reading
+
+Here are a few links for more information about Hybrid and Multi-cloud models from some of the major cloud providers:
+
+- [What is a hybrid cloud (Microsoft)](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-hybrid-cloud-computing/)
+- [Hybrid Cloud with AWS](https://aws.amazon.com/hybrid/?pg=wihybrid&cta=bc)
+- [What is a hybrid cloud (Google Cloud Platform)](https://cloud.google.com/learn/what-is-hybrid-cloud)
+- [Hybrid Cloud Services (Oracle)](https://www.oracle.com/cloud/hybrid-cloud/)

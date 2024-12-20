@@ -9,7 +9,7 @@ plugins:
   - jekyll-paginate
 
 # Configure page URL strucutres to remove the default /categories at the start
-permalink: /blog/:year/:month/:slug
+permalink: /:year/:month/:slug
 
 # Configure the pagination
 paginate: 2
