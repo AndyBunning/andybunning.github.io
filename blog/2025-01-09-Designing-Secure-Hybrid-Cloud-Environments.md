@@ -87,31 +87,31 @@ Aligning to the above design principles when creating or updating a hybrid cloud
 
 Securing hybrid cloud environments requires a multifaceted approach that combines various technologies, policies, and practices to protect both on-premises and cloud-based systems. Here are the best practices for securing hybrid cloud environments:
 
-#### 1. **Implement Robust Identity and Access Management (IAM)**
+#### Implement Robust Identity and Access Management (IAM)
 
  Implement robust IAM practices, including multi-factor authentication (MFA) and role-based access control (RBAC), to prevent unauthorised access.  Some work is needed to ensure that there is either a single source for all user accounts, or if there are multiple sources, where they integrate to ensure there is no overlap or contamination if one is compromised.  Where possible the creation, updating and decommissioning of user accounts should be automated and driven from a single system - such as  a HR system to ensure that when a user changes role or leaves the organisation, their account(s) is(are) updated correctly.
 
-#### 2. **Encrypt Data Everywhere**
+#### Encrypt Data Everywhere
 
 Protect sensitive data by encrypting it both at rest and in transit. This ensures data integrity and privacy, even in the event of a breach.  The development of agreed policies and standards can ensure the same level of protection is provided, whichever technology is used.  Properly manage encryption keys for data through a key management service and rotate keys regularly.  Some Cloud providers provide the ability to enforce policies across all data storage resources (e.g. Azure Policy), however, the key here is to be consistent across platforms and technologies.
 
-#### 3. **Establish Strong Network Security**
+#### Establish Strong Network Security
 
 Secure communication between on-premises and cloud systems using virtual private networks (VPNs) or software-defined wide area networks (SD-WANs). Network segmentation and advanced firewalls can limit exposure in the event of a breach while allowing the integration of platforms. 
 
-#### 4. **Monitor and Detect Threats Proactively**
+#### Monitor and Detect Threats Proactively
 
 Use continuous real-time monitoring and Security Information and Event Management (SIEM) tools to detect and respond to threats proactively.  Using a single SIEM tool with feeds from each platform can help to ensure a single view of the threat, particularly when combined with threat intelligence, even if there are multiple attacks to different parts of the environment. Automation can enhance response times and reduce human error.
 
-#### 5. **Ensure Comprehensive Data Protection and Backup Strategies**
+#### Ensure Comprehensive Data Protection and Backup Strategies
 
 Regularly back up critical data and develop both business continuity and disaster recovery plans. Ideally the disaster recovery plan should consist of automation and scripts that to enable a quicker recovery from any failure.  DR systems should be tested frequently to ensure they work as intended during a crisis.   Don't forget about testing underlying services and look to identify single points of failure.
 
-#### 6. **Ensure Compliance and Regulatory Alignment**
+#### Ensure Compliance and Regulatory Alignment
 
 Considering compliance regulations early on in the design of the environment can ensure that  data is stored appropriately, including maintaining data within specific geographic regions where required.  A complete and accurate audit trail of user activities, access requests, and data changes ensures accountability and supports forensic investigations in case of a security incident.  Careful evaluation and monitoring third-party providers (including cloud vendors) ensure they meet the same security and compliance standards required by your organisation. Using automation tools to support the monitoring and reporting of compliance standards can simplify audits and ensure consistent adherence to regulatory requirements.
 
-#### 8. **Implement a Strong Patch Management Strategy**
+#### Implement a Strong Patch Management Strategy
 
 All services, regardless of location or hosting platform should be automatically patched and updated on a regular basis. This includes operating systems, software applications, and security tools. Failure to patch vulnerabilities can leave systems exposed to exploits. Prior to deploying patches, you may wish to test them in a staging environment to ensure they won’t disrupt critical business applications or introduce new vulnerabilities.
 
