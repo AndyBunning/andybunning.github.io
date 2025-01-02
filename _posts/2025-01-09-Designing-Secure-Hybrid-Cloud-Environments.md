@@ -37,8 +37,6 @@ Misconfigured resources in hybrid cloud environments create critical security vu
 
 These issues can be mitigated by standardising policies, automating configurations, and conducting regular security reviews.
 
-I have worked with a customer that migrated most of their on-premises infrastructure to Microsoft Azure with third-party support. The third party recommended migrating all firewall rules without updating policies or documentation. Over time, the organisation expanded with new network endpoints, applications, and a second tenancy with peered networking, resulting in an outdated and overly complex rule set on a non-native firewall (Cisco virtual appliance). The inconsistent naming conventions and redundant rules make changes risky, leaving the technical team unable to fully support the environment or ensure security. This issue is worsened by uncontrolled connections from home IPs to services, further increasing security risks and operational challenges.
-
 #### Compliance Issues
 
 Compliance issues in hybrid cloud environments stem from the need to adhere to legal, regulatory, and industry standards while managing data across on-premises, public, and private cloud systems. Key challenges include:
