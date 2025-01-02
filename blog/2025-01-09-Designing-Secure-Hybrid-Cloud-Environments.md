@@ -71,14 +71,13 @@ To address these challenges, organisations must implement cohesive security poli
 
 ### Principles of Secure Hybrid Cloud Design
 
-A strong foundation for hybrid cloud security begins with adopting key design principles.  The following table provides an overview of the key principles that should be aligned to in an architectural design.
+A strong foundation for hybrid cloud security begins with adopting key design principles.  The following list summarises the key principles that should be aligned to in an architectural design.
 
-| **Principle** | **Description** |
-| --- | --- |
-| *Zero Trust Security Model* | Assume no entity is trustworthy by default. Implement identity verification, least privilege access, and continuous monitoring. |
-| *Shared Responsibility Model* | Recognise that security responsibilities are shared between your organisation and cloud providers. Clearly define boundaries to prevent gaps. |
-| *Scalability and Flexibility* | Balance security needs with performance demands as your environment grows. |
-| *Compliance and Governance* | Build systems that meet or exceed legal, regulatory, and industry standards. Automate compliance checks where possible. |
+- **Zero Trust Security Model**: Assume no entity is trustworthy by default. Implement identity verification, least privilege access, and continuous monitoring.
+- **Shared Responsibility Model**: Recognise that security responsibilities are shared between your organisation and cloud providers. Clearly define boundaries to prevent gaps.
+- **Scalability and Flexibility**: Balance security needs with performance demands as your environment grows.
+- **Compliance and Governance**: Build systems that meet or exceed legal, regulatory, and industry standards. Automate compliance checks where possible.
+
 
 Aligning to the above design principles when creating or updating a hybrid cloud environment can help to mitigate (or at least ensure you think about) many of the issues described above.
 
