@@ -132,6 +132,6 @@ Here are a few links for more information about Securing a hybrid cloud environm
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [ISO/IEC 27001:2022 - Information security management systems](https://www.iso.org/standard/27001)
 - Provider-specific security resources:
-    - [Azure Security Centre](https://azure.microsoft.com/en-us/services/azure-security-center/)
+    - [Azure Security](https://azure.microsoft.com/en-gb/explore/security/)
     - [AWS GuardDuty](https://aws.amazon.com/guardduty/)
     - [Google Cloud Security Command Center](https://cloud.google.com/security/products/security-command-center/)
