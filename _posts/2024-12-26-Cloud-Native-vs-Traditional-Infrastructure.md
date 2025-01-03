@@ -151,7 +151,7 @@ Ready to explore your options? Start by assessing your current infrastructure an
 
 ---
 
-### Further Reading
+### Further Reading/Resources
 
 Here are a few links for more information about Hybrid and Multi-cloud models from some of the major cloud providers:
 
