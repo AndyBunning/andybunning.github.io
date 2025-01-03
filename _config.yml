@@ -8,7 +8,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Configure page URL strucutres to remove the default /categories at the start
 permalink: /blog/:year/:month/:slug
