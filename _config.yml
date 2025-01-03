@@ -1,7 +1,6 @@
 url: "https://abunning.uk" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/blog/" # the subpath of your site, e.g. /blog
 title: "Andrew Bunning" # the name of your site, e.g. ACME Corp.
-theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-feed
