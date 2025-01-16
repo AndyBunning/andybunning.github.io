@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 Hybrid cloud environments provide flexibility, scalability, and cost efficiency by combining on-premises and cloud-based systems. However, these benefits come with significant security challenges. This post highlights some of the challenges and best practices for designing secure hybrid cloud environments, ensuring resilience and compliance with modern security standards.
 
-<!---more-->
+<!--more-->
 
 ---
 
