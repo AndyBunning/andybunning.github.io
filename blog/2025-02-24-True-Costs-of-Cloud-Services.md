@@ -52,4 +52,6 @@ Despite these hidden expenses, businesses can still optimise their cloud spendin
 
 Cloud computing offers tremendous benefits, but it is not always the cost-saving solution that businesses expect. Understanding the hidden costs and implementing proactive cost management strategies can help organisations optimise their cloud investment without overspending. By rightsizing resources, leveraging cost-saving models, and using automation tools, businesses can strike the right balance between performance and cost efficiency in the cloud.
 
-While hybrid and multi-cloud architectures offer flexibility, resilience,  vendor diversification and can offer cost efficiencies, they also come with increased operational complexity and costs. Careful **cost optimisation, strategic workload placement, and proactive monitoring** are necessary to avoid unexpected expenses.
+While hybrid and multi-cloud architectures offer additional flexibility, resilience,  vendor diversification and can offer cost efficiencies, they also come with increased operational complexity and costs. Careful **cost optimisation, strategic workload placement, and proactive monitoring** are necessary to avoid unexpected expenses.
+
+That said, organisations should not be scared of moving to the cloud as the benefits often far outweight the costs, particularly when combined with some of the mitigation strategies highlighted above.  It is also worth highlighting that Cloud services are far cheaper than building or renovating an on-premises datacentre.
