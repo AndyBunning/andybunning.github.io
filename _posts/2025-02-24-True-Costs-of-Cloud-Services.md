@@ -1,6 +1,16 @@
-# The True Cost of Cloud Services: Not as Cheap as You Think
+---
+layout: post
+title: So you think it is cheaper
+excerpt_separator: <!--more-->
+---
+
+***The True Cost of Cloud Services: Not as Cheap as You Think.***
 
 Cloud computing has revolutionised the way businesses operate, offering flexibility, scalability, and operational efficiency. However, many organisations jump into cloud adoption under the assumption that it will be significantly cheaper than on-premises infrastructure. While cloud services can provide cost savings in certain areas, they also introduce hidden costs that can quickly escalate if not managed properly.
+
+<!--more-->
+
+---
 
 ## The Misconception of Low Costs
 
