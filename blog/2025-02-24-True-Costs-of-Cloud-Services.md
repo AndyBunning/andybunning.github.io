@@ -33,33 +33,37 @@ In addition to the costs associated with Cloud services, leveraging a hybrid or 
 - **Management and Monitoring**: Standardised management and monitoring across different cloud providers can be difficult and require third party tooling, with associated licencing.
 - **Skills and Training**: IT teams need additional skills and training to manage multiple cloud platforms, increasing workforce costs.  Highly trained multi-cloud specialists can demand a higher salary and consultancy fees.
 
+---
+
 ## Mitigating Cloud Cost Increases
 
 Despite these hidden expenses, businesses can still optimise their cloud spending and make the most out of their investments. Here are some key strategies:
 
-### 1. **Rightsizing and Resource Optimisation**
+1. **Rightsizing and Resource Optimisation**
 
 Regularly reviewing and adjusting cloud resources ensures that you are not overpaying for underutilised instances. Many cloud providers offer cost analysis tools to identify and recommend appropriate instance sizes based on actual usage.
 
-### 2. **Leverage Reserved and Spot Instances**
+2. **Leverage Reserved and Spot Instances**
 
 For workloads with predictable usage patterns, using reserved instances (committing to usage for 1-3 years) can significantly reduce costs. Spot instances (unused capacity sold at lower prices) are another way to save, particularly for flexible workloads.
 
-### 3. **Monitor and Automate Cost Management**
+3. **Monitor and Automate Cost Management**
 
 Using cost management tools like AWS Cost Explorer, Azure Cost Management, or Google Cloud Billing can help track spending in real-time. Automation solutions can shut down idle resources, scale services dynamically, and notify teams of unusual cost spikes.
 
-### 4. **Optimise Data Storage and Transfers**
+4. **Optimise Data Storage and Transfers**
 
 Implement data lifecycle policies to move infrequently accessed data to lower-cost storage tiers such as AWS S3 Glacier or Azure Blob Archive. Also, minimise data egress costs by keeping services and databases within the same cloud region where possible.
 
-### 5. **Consider Multi-Cloud and Hybrid Strategies**
+5. **Consider Multi-Cloud and Hybrid Strategies**
 
 Using a combination of on-premises and cloud infrastructure (hybrid cloud) or multiple cloud providers can help businesses avoid vendor lock-in and take advantage of competitive pricing across different services.
 
-### 6. **Train Teams on Cloud Cost Awareness**
+6. **Train Teams on Cloud Cost Awareness**
 
 Many cost overruns occur due to a lack of understanding of cloud pricing models. Training teams on cost implications and best practices for cloud usage can prevent unnecessary spending.
+
+---
 
 ## Conclusion
 
