@@ -95,7 +95,7 @@ Protect sensitive data by encrypting it both at rest and in transit. This ensure
 
 #### Establish Strong Network Security
 
-Secure communication between on-premises and cloud systems using virtual private networks (VPNs) or software-defined wide area networks (SD-WANs). Network segmentation and advanced firewalls can limit exposure in the event of a breach while allowing the integration of platforms. 
+Secure communication between on-premises and cloud systems using virtual private networks (VPNs) or software-defined wide area networks (SD-WANs). Network segmentation and advanced firewalls can limit exposure in the event of a breach while allowing the integration of platforms.
 
 #### Monitor and Detect Threats Proactively
 
