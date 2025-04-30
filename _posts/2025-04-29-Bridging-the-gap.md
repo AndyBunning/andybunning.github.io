@@ -19,7 +19,9 @@ In this blog, I’ll explore proven best practices for designing and implementin
 
 Hybrid cloud architecture is a computing environment that blends on-premises infrastructure with public and/or private cloud services, enabling seamless integration and workload mobility between them. It gives organisations the flexibility to run workloads where it makes the most sense—whether that’s in a local data centre for latency-sensitive applications or in the cloud for scalable analytics and burst capacity.
 
-![Hybrid Cloud Architecture]({{ site.url }}/assets/images/hybrid-cloud-architecture.png){: width="250" }
+{:refdef: style="text-align: center;"}
+![Hybrid Cloud Architecture]({{ site.url }}/assets/images/hybrid-cloud-architecture.png){: width="500" }
+{: refdef}
 
 At its core, a hybrid cloud is more than just a mix of technologies—it's a strategy that allows enterprises to modernise at their own pace, avoid vendor lock-in, and meet strict compliance or data residency requirements.
 
