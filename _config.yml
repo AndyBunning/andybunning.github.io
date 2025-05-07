@@ -12,5 +12,5 @@ plugins:
 permalink: /blog/:year/:month/:slug
 
 # Configure the pagination
-paginate: 5
+paginate: 3
 paginate_path: "/blog/page:num/"
